@@ -18,6 +18,14 @@ h1{
     font-family: sans-serif;
 }
 
+h2{
+    text-align: center;
+    color: rgb(141, 154, 167);
+    opacity: 50%;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
 .wrapper{
     margin-top: 100px;
     display: flex;
@@ -30,7 +38,7 @@ h1{
 }
 
 .key{
-    height: calc(var(--width)*4);
+    height: calc(var(--width)*3);
     width: var(--width);
     transition: backgroind-color 0.2s ease;
     position: relative;
